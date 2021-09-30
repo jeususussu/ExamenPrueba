@@ -1,0 +1,15 @@
+ENDPOINTS PROYECTO EXAMEN:
+
+
+http://localhost:7575/exam/addAlumnos
+{"nombre":"JUAN","apepat":"ROMERO","apemat":"SANCHEZ","matricula":"101010"}
+
+http://localhost:7575/exam/selectAlumnos
+
+http://localhost:7575/exam/addCalificacion
+{"calificacion":90.0,"alumno_id":1,"materia_id":1}
+
+http://localhost:7575/exam/updateCalificacion/27
+{"calificacion":100.0,"alumno_id":1,"materia_id":1}
+
+http://localhost:7575/exam/selectAlumnosCalificaciones
